@@ -1,0 +1,15 @@
+{
+  "name": "free-bday-perk-reminder",
+  "version": "0.0.5",
+  "description": "Sign up and get a list of all the free stuff you can get on your birthday",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dennys",
+    "starbucks"
+  ],
+  "author": "misterhtmlcss",
+  "license": "Copyright (C) @misterhtmlcss - All Rights Reserved | Unauthorized copying of this file, via any medium is strictly prohibited. Written by misterhtmlcss @ gmail.com, 2017"
+}
