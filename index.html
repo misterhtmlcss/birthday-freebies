@@ -12,18 +12,33 @@
    <title>Birthday (list) giveaways - Subscribe to get an email on those giveaways</title>
 
 </head>
-<body>   
-   <h1>Want to get all the free stuff you can on your birthday?</h1>
-   <p>Yes? Well so do I!!</p> 
-   <form action="#"> 
-      <Subscribe>Email Address</Subscribe>
-      <date>Have a birthday picker - Just Day and Month</date>
-      <timezone>We need to detect and confirm their timezone for emails</timezone>
-      <submit>Button</submit>
-   </form>
-   <p>We don't do anything with your email address. What we do is we keep it in a database and 7 days before your birthday we send out 3 emails a year; 7 days before your birthday, then the night before and in the morning at 7am.</p>
-   <p>Why do we do this? Well because it solves a bunch of issues that have arrisen from my own experience from already having confirmed plans elsewhere to forgetting about a place on the day of e.g. Denny's Grand Slam which is why I created this service originally</p> 
-
-   <footer><p>Made with Hate and Rage by <i> MISTERHTMLCSS<i></p></footer> 
+<body>  
+   <div class="container">
+      <header>
+      <h1>Want to get all the free stuff you can on your birthday?</h1>
+      <p>Yes? Well so do I!!</p> 
+      </header>
+      <main class="enter">
+         <form action="#"> 
+            <div>
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="user_name" />
+            </div>
+            <div>
+               <label for="mail">Email Address:</label>
+               <input type="email" id="mail" name="user_mail" />
+             </div>
+            
+          <!-- Birthday picker | Just Day and Month 
+          We need to detect and confirm their timezone for emails -->
+            <div class="button">
+               <button type="submit">Submit</button>
+            </div>
+         </form>
+         <p>We don't do anything with your email address. What we do is we keep it in a database and 7 days before your birthday we send out 3 emails a year; 7 days before your birthday, then the night before and in the morning at 7am.</p>
+         <p>Why do we do this? Well because it solves a bunch of issues that have arrisen from my own experience from already having confirmed plans elsewhere to forgetting about a place on the day of e.g. Denny's Grand Slam which is why I created this service originally</p> 
+      </main>
+      <footer><p>Made with Hate and Rage by <i> MISTERHTMLCSS<i></p></footer>
+   </div>  
 </body>
 </html>
